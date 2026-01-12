@@ -1,5 +1,7 @@
 # ARAIASystem
 
+> Manifiesto: protección y privacidad por diseño — [Lee el Manifiesto y Agradecimientos](./docs/manifesto_y_agradecimientos.md)
+
 Este proyecto nace del esfuerzo de un creador independiente para proteger lo más valioso: la privacidad. IASystem es una propuesta para que la tecnología vuelva a servir, proteger y reconocer.
 
 Descripción
