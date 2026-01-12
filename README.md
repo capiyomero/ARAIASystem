@@ -2,6 +2,8 @@
 
 > Manifiesto: protección y privacidad por diseño — [Lee el Manifiesto y Agradecimientos](./docs/manifesto_y_agradecimientos.md)
 
+- [Manifiesto Ético y Agradecimientos (español/inglés)](./docs/manifesto_y_agradecimientos.md)
+
 Este proyecto nace del esfuerzo de un creador independiente para proteger lo más valioso: la privacidad. IASystem es una propuesta para que la tecnología vuelva a servir, proteger y reconocer.
 
 Descripción
@@ -15,3 +17,5 @@ Las contribuciones son bienvenidas. Por favor, abre issues o PRs para proponer c
 ## Documentación Técnica
 - [Diagramas y arquitectura](./docs/diagramas.md)
 - [Workflows de ejemplo](./workflows/)
+
+---
