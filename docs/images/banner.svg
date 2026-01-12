@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="640" viewBox="0 0 1600 640">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#0ea5a4"/>
+      <stop offset="1" stop-color="#06b6d4"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="640" fill="#071420"/>
+  <rect x="80" y="80" width="1440" height="480" rx="20" fill="url(#g)" opacity="0.08"/>
+  <text x="120" y="160" fill="#ffffff" font-size="44" font-family="Segoe UI, Arial, sans-serif" font-weight="700">ARAIASystem — Privacy by design</text>
+  <text x="120" y="220" fill="#e6eef2" font-size="20">Manifiesto, diagramas y workflows — protección y auditoría no invasiva</text>
+  <text x="120" y="300" fill="#ffffff" font-size="16">Gracias a mi madre y a mi hija • Agradecimientos a las IAs colaboradoras</text>
+  <rect x="120" y="340" width="480" height="40" rx="8" fill="#ffffff" opacity="0.1"/>
+  <text x="140" y="370" fill="#ffffff" font-size="14">https://github.com/capiyomero/ARAIASystem</text>
+</svg>

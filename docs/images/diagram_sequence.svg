@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="540" viewBox="0 0 1200 540">
+  <style>
+    .bg{fill:#ffffff}
+    .lane{fill:#f1f5f9;stroke:#cbd5e1}
+    .actor{fill:#0f1724;fill-opacity:0.9;font-family:Segoe UI, Arial, sans-serif;color:#0f1724;font-size:14px}
+    .box{fill:#06b6d4;stroke:#084b51;rx:6}
+    .text{fill:#0f1724;font-family:Segoe UI, Arial, sans-serif;font-size:14px}
+  </style>
+  <rect class="bg" width="1200" height="540"/>
+  <text x="40" y="36" class="text" style="font-size:20px;font-weight:700">Sequence — External Provider Validation</text>
+
+  <!-- Actors -->
+  <text x="120" y="86" class="text">User</text>
+  <line x1="120" y1="92" x2="120" y2="440" stroke="#e2e8f0" stroke-dasharray="4 4"/>
+
+  <text x="360" y="86" class="text">IASystem</text>
+  <line x1="360" y1="92" x2="360" y2="440" stroke="#e2e8f0" stroke-dasharray="4 4"/>
+
+  <text x="640" y="86" class="text">Validator</text>
+  <line x1="640" y1="92" x2="640" y2="440" stroke="#e2e8f0" stroke-dasharray="4 4"/>
+
+  <text x="920" y="86" class="text">ExternalAPI</text>
+  <line x1="920" y1="92" x2="920" y2="440" stroke="#e2e8f0" stroke-dasharray="4 4"/>
+
+  <!-- Messages -->
+  <path d="M140 130 L340 130" stroke="#0ea5a4" stroke-width="2" marker-end="url(#a)"/>
+  <text x="240" y="122" class="text">GET /fx/latest?base=USD&target=INR</text>
+
+  <path d="M380 170 L900 170" stroke="#06b6d4" stroke-width="2" marker-end="url(#a)"/>
+  <text x="640" y="162" class="text" text-anchor="middle">IASystem → ExternalAPI: GET fixer</text>
+
+  <path d="M900 210 L380 210" stroke="#f97316" stroke-width="2" marker-end="url(#a)"/>
+  <text x="640" y="202" class="text" text-anchor="middle">ExternalAPI → IASystem: {rates: {INR:83.5}}</text>
+
+  <path d="M420 250 L640 250" stroke="#0ea5a4" stroke-width="2" marker-end="url(#a)"/>
+  <text x="530" y="242" class="text" text-anchor="middle">Validate status=200, JSON schema</text>
+
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#0ea5a4"/>
+    </marker>
+  </defs>
+
+  <text x="40" y="520" class="text">SVG sequence preview — source mermaid preserved in docs/diagramas.md</text>
+</svg>

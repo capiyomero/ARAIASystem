@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640">
+  <style>
+    .bg{fill:#081c24}
+    .node{fill:#06b6d4;stroke:#014144}
+    .text{fill:#ffffff;font-family:Segoe UI, Arial, sans-serif;font-size:14px}
+    .title{font-size:20px;font-weight:700}
+  </style>
+  <rect class="bg" width="1200" height="640"/>
+  <text x="40" y="40" class="text title">Mindmap — IASystem Principles</text>
+
+  <g>
+    <circle cx="300" cy="200" r="60" fill="#0ea5a4"/>
+    <text x="300" y="205" class="text" text-anchor="middle">Privacidad</text>
+    <text x="300" y="225" class="text" text-anchor="middle" style="font-size:12px">No PII • Secrets</text>
+  </g>
+
+  <g>
+    <circle cx="600" cy="360" r="60" fill="#06b6d4"/>
+    <text x="600" y="365" class="text" text-anchor="middle">Auditoría</text>
+    <text x="600" y="385" class="text" text-anchor="middle" style="font-size:12px">Hash • Transparente</text>
+  </g>
+
+  <g>
+    <circle cx="900" cy="200" r="60" fill="#10b981"/>
+    <text x="900" y="205" class="text" text-anchor="middle">Protección</text>
+    <text x="900" y="225" class="text" text-anchor="middle" style="font-size:12px">Validaciones • Fail-safe</text>
+  </g>
+
+  <line x1="360" y1="235" x2="540" y2="325" stroke="#94a3b8" stroke-width="2"/>
+  <line x1="660" y1="325" x2="840" y2="235" stroke="#94a3b8" stroke-width="2"/>
+
+  <text x="40" y="620" class="text">SVG mindmap preview — source mermaid preserved in docs/diagramas.md</text>
+</svg>
